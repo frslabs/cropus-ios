@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-v1.0.0-blue)
 
-The Cropus SDK is used to capture and crops the signature. This SDK is useful to add signature to any digitally added documents.
+The Cropus SDK is used to capture and crops the signature. This SDK is useful to add signature to any digitally created documents.
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
