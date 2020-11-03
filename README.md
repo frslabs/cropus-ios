@@ -43,7 +43,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `cropus` by adding it 
 ```ruby
 source 'https://gitlab.com/frslabs-public/ios/cropus-ios.git'
 source 'https://github.com/CocoaPods/Specs.git'
-platform :ios, '11.0'
+platform :ios, '12.0'
 target '<Your Target Name>' do
 use_frameworks!
 pod 'Cropus', '1.0.0'
