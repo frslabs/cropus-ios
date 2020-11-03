@@ -1,3 +1,4 @@
 ## **v1.0.0** - *29-10-2020*
  **Initial Release**
-Cropus SDK uses to capture the front and back images of ID documents. It also allows the user to manually verify that the documents are clean and clear. This SDK is useful for IDs that cannot be processed on the mobile and needs server-side processing.
+ 
+The Cropus SDK is used to capture and crops the signature. This SDK is useful to add signature to any digitally created documents.
