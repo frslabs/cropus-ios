@@ -13,7 +13,7 @@ You can find the release history at [Changelog](CHANGELOG.md)
 - [Permission](#permission)
 - [Installation](#installation)
 - [Getting Started](#getting-started)
-- [Captus Error Codes](#captus-error-codes)
+- [Cropus Error Codes](#cropus-error-codes)
 - [Help](#help)
 
 ## Prerequisite
