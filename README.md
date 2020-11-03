@@ -61,12 +61,11 @@ machine cropus-ios.repo.frslabs.space
 login <YOUR_USERNAME>
 password <YOUR_PASSOWRD>
 ```
-3. In terminal enter below command to install the pod
-pod install or pod update.
+3. In terminal enter below command to install the pod install or pod update.
 
-4. Connect with physical device to build and run cropus, It will not build/run in simulator due to camera dependency.
+4. Connect with physical device to build and run Cropus, It will not build/run in simulator due to camera dependency.
 
-To get the full benefits import `cropus` wherever you import UIKit
+To get the full benefits import `Cropus` wherever you import UIKit
 
 ``` swift
 import UIKit
@@ -84,6 +83,7 @@ class YourViewController: UIViewController,CropusControllerDelegate {
 
     func cropusScanner(_ scanner: CropusScannerController, didFinishScanningWithResults results: cropusScannerResults) {
         print(results.croppedImage)
+        scanner.dismiss(animated: true)
     }
     
     func cropusScanner(_ scanner: CropusScannerController, didCancel cancel: String) {
@@ -118,11 +118,11 @@ class YourViewController: UIViewController,CropusControllerDelegate {
 Following error codes will be returned on the `onCropusFailure` method of the callback
 
 | CODE | DESCRIPTION                  |
-| ---- | ---------------------------- |           |
+| ---- | ---------------------------- |        
 | 805  | Cropus SDK License has expire             |
 | 806  | Cropus SDK License is invalid             |
 
- Sets the Cropus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about     the REST API, contact `support@frslabs.com`
+ Sets the Cropus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about the REST API, contact `support@frslabs.com`
   
  
 ## Help
