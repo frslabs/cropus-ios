@@ -2,7 +2,7 @@
 
 ![version](https://img.shields.io/badge/version-v1.0.0-blue)
 
-The Cropus SDK is used to capture and crops the signature. This SDK is useful to add signature to any digitally created documents.
+The Cropus SDK is used to capture and crop the signature. This SDK is useful to add signature to any digitally created documents.
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
@@ -61,7 +61,9 @@ machine cropus-ios.repo.frslabs.space
 login <YOUR_USERNAME>
 password <YOUR_PASSOWRD>
 ```
-3. In terminal enter below command to install the pod install or pod update.
+3. In terminal enter below command to install the pod 
+
+   pod install or pod update.
 
 4. Connect with physical device to build and run Cropus, It will not build/run in simulator due to camera dependency.
 
