@@ -120,7 +120,9 @@ class YourViewController: UIViewController,CropusControllerDelegate {
 Following error codes will be returned on the `onCropusFailure` method of the callback
 
 | CODE | DESCRIPTION                  |
-| ---- | ---------------------------- |        
+| ---- | ---------------------------- |
+| 803  | Camera permission denied    |
+| 804  | Cropus interrupted            |
 | 805  | Cropus SDK License has expired             |
 | 806  | Cropus SDK License is invalid             |
 
