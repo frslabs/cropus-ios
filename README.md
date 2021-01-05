@@ -1,4 +1,4 @@
-# cropus-ios SDK
+# Cropus-iOS SDK
 
 ![version](https://img.shields.io/badge/version-v1.0.0-blue)
 
