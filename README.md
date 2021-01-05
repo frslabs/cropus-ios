@@ -88,11 +88,6 @@ class YourViewController: UIViewController,CropusControllerDelegate {
         scanner.dismiss(animated: true)
     }
     
-    func cropusScanner(_ scanner: CropusScannerController, didCancel cancel: String) {
-        print("cancelled")
-        scanner.dismiss(animated: true)
-    }
-    
     func cropusScanner(_ scanner: CropusScannerController, didFailWithError error: String) {
         print(error)
         scanner.dismiss(animated: true)
