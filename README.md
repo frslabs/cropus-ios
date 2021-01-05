@@ -121,7 +121,7 @@ Following error codes will be returned on the `onCropusFailure` method of the ca
 
 | CODE | DESCRIPTION                  |
 | ---- | ---------------------------- |        
-| 805  | Cropus SDK License has expire             |
+| 805  | Cropus SDK License has expired             |
 | 806  | Cropus SDK License is invalid             |
 
  Sets the Cropus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about the REST API, contact `support@frslabs.com`
