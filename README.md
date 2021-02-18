@@ -26,6 +26,7 @@ Once you have the license , follow the below instructions for a successful integ
 
 - Swift 5.0
 - iOS 12.0+
+- Xcode 11.5
 
 ## Permission
 
