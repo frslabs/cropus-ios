@@ -85,9 +85,10 @@ import Cropus
 class YourViewController: UIViewController,CropusControllerDelegate {
 
     func cropusScanner(_ scanner: CropusScannerController, didFinishScanningWithResults results: cropusScannerResults) {
-        
-       let highResolutionImage = getImageFromDocumentDirectory(resultString: results.getHighResolutionPath!)
-       if imageResolution == "BOTH"{
+       if imageResolution == "BOTH" || imageResolution == "HIGH"{
+           let highResolutionImage = getImageFromDocumentDirectory(resultString: results.getHighResolutionPath!)
+       }
+       if imageResolution == "BOTH" || imageResolution == "LOW"{
            let lowResolutionImage = getImageFromDocumentDirectory(resultString: results.getLowResolutionPath!)
        }
        scanner.dismiss(animated: true)
