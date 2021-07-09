@@ -1,4 +1,8 @@
 
+## **v1.4.0** - *09-07-2021*
+ - Image Resolution Changes 
+ - Image Formate Addition
+
 ## **v1.3.0** - *21-06-2021*
  Updated swift version
  
