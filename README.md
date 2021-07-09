@@ -129,6 +129,15 @@ class YourViewController: UIViewController,CropusControllerDelegate {
     
     // ...    
 ```
+## Forus Result
+
+```swift
+
+    High Resolution image Output:  getImageFromDocumentDirectory(resultString: results.getHighResolutionPath!) //High resolution Output if selected in input side
+    Low Resolution image Output:   getImageFromDocumentDirectory(resultString: results.getLowResolutionPath!) // Low resolution Output if selected in input side
+    Both Resolution : --> getImageFromDocumentDirectory(resultString: results.getHighResolutionPath!) & getImageFromDocumentDirectory(resultString: results.getLowResolutionPath!)
+```  
+
 ## Cropus Error Codes
 
 Following error codes will be returned on the `onCropusFailure` method of the callback
