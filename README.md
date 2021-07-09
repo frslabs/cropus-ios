@@ -85,15 +85,31 @@ import Cropus
 class YourViewController: UIViewController,CropusControllerDelegate {
 
     func cropusScanner(_ scanner: CropusScannerController, didFinishScanningWithResults results: cropusScannerResults) {
-        print(results.croppedImage)
-        scanner.dismiss(animated: true)
+        
+       let highResolutionImage = getImageFromDocumentDirectory(resultString: results.getHighResolutionPath!)
+       if imageResolution == "BOTH"{
+           let lowResolutionImage = getImageFromDocumentDirectory(resultString: results.getLowResolutionPath!)
+       }
+       scanner.dismiss(animated: true)
     }
     
     func cropusScanner(_ scanner: CropusScannerController, didFailWithError error: String) {
         print(error)
         scanner.dismiss(animated: true)
     }
-  
+   func getImageFromDocumentDirectory(resultString : String) -> UIImage {
+        var croppedImage = UIImage()
+        let fileManager = FileManager.default
+        let fileArray = resultString.components(separatedBy: "/")
+        let finalFileName = fileArray.last
+        let path = (NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true)[0] as NSString).appendingPathComponent(finalFileName!)
+        if fileManager.fileExists(atPath: path) {
+            croppedImage = UIImage(contentsOfFile: path)!
+        } else {
+             print("No Image")
+        }
+       return croppedImage
+    }
 }
 ```
 
@@ -106,6 +122,8 @@ class YourViewController: UIViewController,CropusControllerDelegate {
         let scanner = CropusScannerController(delegate: self)
         scanner.modalPresentationStyle = .fullScreen
         scanner.licenceKey = "CROPUS_LICENCE_KEY"
+        scanner.setOutputImageFormat = "jpg" //Output image format either "jpg" or "png" by default result will be in png format.
+        scanner.setOutputImageResolution = "BOTH" // Output image resolution either "BOTH","LOW","HIGH" by default result is in "HIGH" resolution image.
         self.present(scanner, animated: true)
     }
     
