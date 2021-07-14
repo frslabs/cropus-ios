@@ -22,11 +22,10 @@ You will need a valid license and Netrc credentials to use the Cropus SDK, which
 
 Once you have the license , follow the below instructions for a successful integration of Cropus SDK onto your iOS Application.
 
-## Requirements
+## Minimum Requirements
 
-- Swift 5.0
+- xcode 12.5
 - iOS 12.0+
-- Xcode 12.4
 
 ## Permission
 
