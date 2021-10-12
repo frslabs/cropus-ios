@@ -1,4 +1,7 @@
 
+## **v1.4.1** - *12-10-2021*
+- Support for Xcode 13 version.
+
 ## **v1.4.0** - *09-07-2021*
  - Image Resolution Changes 
  - Image Formate Addition
