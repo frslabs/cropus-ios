@@ -1,4 +1,7 @@
 
+## **v1.4.2** - *27-12-2021*
+- Swift & Xcode update.
+
 ## **v1.4.1** - *12-10-2021*
 - Support for Xcode 13 version.
 
