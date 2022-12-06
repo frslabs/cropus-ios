@@ -151,6 +151,7 @@ Following error codes will be returned on the `onCropusFailure` method of the ca
 | 806  | Cropus SDK License is invalid             |
 | 807  | Invalid input parameters passed    |
 | 809  | Unable to save the cropped image        |
+| 810  | Transaction failed/ Ping failed        |
 
  Sets the Cropus SDK apiCredentials . Obtain the appropriate api credentials through a REST API call , for details about the REST API, contact `support@frslabs.com`
   
