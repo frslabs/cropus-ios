@@ -1,6 +1,6 @@
 # Cropus-iOS SDK
 
-![version](https://img.shields.io/badge/version-v1.4.6-blue)
+![version](https://img.shields.io/badge/version-v1.4.8-blue)
 
 The Cropus SDK is used to capture and crop the signature. This SDK is useful to add signature to any digitally created documents.
 
@@ -25,7 +25,7 @@ Once you have the license , follow the below instructions for a successful integ
 ## Minimum Requirements
 
 - Xcode 13.0
-- iOS 12.0+
+- iOS 13.0+
 - Swift 5.0
 
 ## Permission
@@ -47,7 +47,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Cropus', '1.4.6'
+pod 'Cropus', '1.4.8'
 end
 ```
 
