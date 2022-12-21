@@ -6,6 +6,8 @@ The Cropus SDK is used to capture and crop the signature. This SDK is useful to 
 
 You can find the release history at [Changelog](CHANGELOG.md)
 
+‼ ATTENTION ‼ → BREAKING CHANGE introduced at Octus SDK `v1.4.9`. We have introduced a new license format. If you are using versions prior to `v1.4.9` and intend to update to `v1.4.9` or above please contact `support@frslabs.com` for an updated license.
+
 # Table Of Content
 
 - [Prerequisite](#prerequisite)
