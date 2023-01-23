@@ -1,8 +1,5 @@
 # Changelog
 
-## **v1.5.0** - *20-1-2023*
-- Bug fixes.
-
 ## **v1.4.9** - *20-12-2022*
 - Swift & Xcode 14.2 update.
 - Support from iOS 13.
