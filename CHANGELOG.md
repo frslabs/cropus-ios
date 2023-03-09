@@ -1,5 +1,9 @@
 # Changelog
 
+## **v1.5.3** - *09-03-2023*
+- UI changes.
+- Bug fixes.
+
 ## **v1.5.2** - *22-02-2023*
 - Bug fixes.
 
