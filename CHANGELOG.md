@@ -1,5 +1,8 @@
 # Changelog
 
+## **v1.5.6** - *13-04-2023*
+- Swift & Xcode 14.3 version update.
+
 ## **v1.5.3** - *09-03-2023*
 - UI changes.
 - Bug fixes.
