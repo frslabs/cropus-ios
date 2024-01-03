@@ -1,6 +1,6 @@
 # Cropus-iOS SDK
 
-![version](https://img.shields.io/badge/version-v1.5.6-blue)
+![version](https://img.shields.io/badge/version-v1.6.0-blue)
 
 The Cropus SDK is used to capture and crop the signature. This SDK is useful to add signature to any digitally created documents.
 
@@ -125,6 +125,7 @@ class YourViewController: UIViewController,CropusControllerDelegate {
         let scanner = CropusScannerController(showInstruction: true, delegate:self)
         scanner.modalPresentationStyle = .fullScreen
         scanner.licenceKey = "CROPUS_LICENCE_KEY"
+        //scanner.setLowResMaxImageSize = 15 // Set low resolution image max size
         scanner.setOutputImageFormat = "jpg" //Output image format either "jpg" or "png" by default result will be in png format.
         scanner.setOutputImageResolution = "BOTH" // Output image resolution either "BOTH","LOW","HIGH" by default result is in "HIGH" resolution image.
         self.present(scanner, animated: true)
