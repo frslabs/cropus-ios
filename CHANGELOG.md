@@ -1,5 +1,8 @@
 # Changelog
 
+## **v1.6.0** - *03-01-2024*
+- Added new CropusConfig method to set maximum image size of low resolution image.
+
 ## **v1.5.6** - *13-04-2023*
 - Swift & Xcode 14.3 version update.
 
