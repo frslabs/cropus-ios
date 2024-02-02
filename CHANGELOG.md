@@ -1,5 +1,8 @@
 # Changelog
 
+## **v1.6.1** - *02-02-2024*
+- Added new CropusConfig method to set image resolution of low resolution image.
+
 ## **v1.6.0** - *03-01-2024*
 - Added new CropusConfig method to set maximum image size of low resolution image.
 
