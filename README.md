@@ -49,7 +49,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '13.0'
 target '<Your Target Name>' do
 use_frameworks!
-pod 'Cropus', '1.5.3'
+pod 'Cropus', '1.6.2'
 end
 ```
 
