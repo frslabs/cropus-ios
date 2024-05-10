@@ -125,9 +125,9 @@ class YourViewController: UIViewController,CropusControllerDelegate {
         let scanner = CropusScannerController(showInstruction: true, delegate:self)
         scanner.modalPresentationStyle = .fullScreen
         scanner.licenceKey = "CROPUS_LICENCE_KEY"
-        //scanner.setLowResMaxImageSize = 15 // Set low resolution image max size
+        scanner.setLowResMaxImageSize = 15 // Set low resolution image max size (Minimum size should be 5KB)
         scanner.setOutputImageFormat = "jpg" //Output image format either "jpg" or "png" by default result will be in png format.
-         //scanner.setCropusImageSize = CropusImageSize(width:<WIDTH>,height:<HEIGHT>) //Set output image dimension
+        scanner.setCropusImageSize = CropusImageSize(width:<WIDTH>,height:<HEIGHT>) //Set output image dimension (Minimum size should be 50*50)
         scanner.setOutputImageResolution = "BOTH" // Output image resolution either "BOTH","LOW","HIGH" by default result is in "HIGH" resolution image.
         self.present(scanner, animated: true)
     }
