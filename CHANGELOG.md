@@ -1,4 +1,7 @@
 # Changelog
+## **v1.6.4** - *23-06-2024*
+- Swift & Xcode 15.4 version update.
+  
 ## **v1.6.3** - *10-05-2024*
 - low resolution image with quality size.
 - Image quality enhancements.
