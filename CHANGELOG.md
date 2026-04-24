@@ -1,4 +1,7 @@
 # Changelog
+## **v1.7.4** - *24-04-2026*
+- Support for simultor compiling.
+  
 ## **v1.7.3** - *20-04-2026*
 - Swift & Xcode 26.4.1 version with OS 26.4.1 update.
 
